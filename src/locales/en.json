@@ -1,0 +1,58 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Give New Life to Your Obsolete Material",
+    "subtitle": "ReStocked specializes in buying and selling obsolete construction machinery parts. We transform idle inventory into real value for your business.",
+    "cta": "Learn More"
+  },
+  "about": {
+    "title": "About Us",
+    "paragraph1": "ReStocked is an innovative company focused on solving a common problem in the construction sector: the accumulation of obsolete construction machinery parts that occupy warehouse space and represent idle capital.",
+    "paragraph2": "Our mission is to give new life to this equipment, connecting companies that have idle material with those that need specific parts at affordable prices.",
+    "paragraph3": "With operations in Portugal and international expansion plans, we are committed to creating a more efficient and sustainable market for construction equipment.",
+    "imageAlt": "ReStocked Warehouse Image"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We offer complete solutions to manage your inventory of obsolete parts and equipment from construction machinery.",
+    "service1": {
+      "title": "Purchase of Obsolete Material",
+      "description": "We buy your idle inventory, freeing up space in your warehouse and generating immediate revenue."
+    },
+    "service2": {
+      "title": "Sale of Used Parts",
+      "description": "We offer quality used parts at competitive prices, saving your maintenance budget."
+    },
+    "service3": {
+      "title": "Inventory Management",
+      "description": "We help identify and manage obsolete parts in your inventory to maximize their value."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have obsolete material to sell or looking for specific parts? Get in touch with us.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send"
+    },
+    "successMessage": "Message sent successfully! We will contact you soon."
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "legal": "Legal",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "social": "Social Media",
+    "rights": "All rights reserved."
+  }
+}

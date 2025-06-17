@@ -1,0 +1,58 @@
+{
+  "header": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Dê Nova Vida ao Seu Material Obsoleto",
+    "subtitle": "A ReStocked é especializada na compra e venda de material obsoleto de máquinas de obras. Transformamos inventário parado em valor real para seu negócio.",
+    "cta": "Saiba Mais"
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "paragraph1": "A ReStocked é uma empresa inovadora focada em resolver um problema comum no setor de construção: o acúmulo de material obsoleto de máquinas de obras que ocupam espaço em armazéns e representam capital parado.",
+    "paragraph2": "Nossa missão é dar nova vida a esses equipamentos, conectando empresas que têm material parado com aquelas que precisam de peças específicas a preços acessíveis.",
+    "paragraph3": "Com operações em Portugal e planos de expansão internacional, estamos comprometidos em criar um mercado mais eficiente e sustentável para equipamentos de construção.",
+    "imageAlt": "Imagem do Armazém ReStocked"
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "description": "Oferecemos soluções completas para gerenciar seu inventário de peças e equipamentos obsoletos de máquinas de obras.",
+    "service1": {
+      "title": "Compra de Material Obsoleto",
+      "description": "Compramos seu inventário parado, liberando espaço em seu armazém e gerando receita imediata."
+    },
+    "service2": {
+      "title": "Venda de Peças Usadas",
+      "description": "Oferecemos peças usadas de qualidade a preços competitivos, economizando seu orçamento de manutenção."
+    },
+    "service3": {
+      "title": "Gestão de Inventário",
+      "description": "Ajudamos a identificar e gerenciar peças obsoletas em seu estoque para maximizar seu valor."
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "description": "Tem material obsoleto para vender ou está procurando peças específicas? Entre em contato conosco.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
+      "submit": "Enviar"
+    },
+    "successMessage": "Mensagem enviada com sucesso! Entraremos em contato em breve."
+  },
+  "footer": {
+    "company": "Empresa",
+    "about": "Sobre Nós",
+    "services": "Serviços",
+    "contact": "Contato",
+    "legal": "Legal",
+    "terms": "Termos de Uso",
+    "privacy": "Política de Privacidade",
+    "social": "Redes Sociais",
+    "rights": "Todos os direitos reservados."
+  }
+}

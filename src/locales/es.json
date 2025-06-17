@@ -1,0 +1,58 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Da Nueva Vida a Tu Material Obsoleto",
+    "subtitle": "ReStocked se especializa en la compra y venta de material obsoleto de maquinaria de construcción. Transformamos inventario inactivo en valor real para tu negocio.",
+    "cta": "Saber Más"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "paragraph1": "ReStocked es una empresa innovadora enfocada en resolver un problema común en el sector de la construcción: la acumulación de material obsoleto de maquinaria de obras que ocupa espacio en almacenes y representa capital inactivo.",
+    "paragraph2": "Nuestra misión es dar nueva vida a estos equipos, conectando empresas que tienen material inactivo con aquellas que necesitan piezas específicas a precios asequibles.",
+    "paragraph3": "Con operaciones en Portugal y planes de expansión internacional, estamos comprometidos en crear un mercado más eficiente y sostenible para equipos de construcción.",
+    "imageAlt": "Imagen del Almacén ReStocked"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "description": "Ofrecemos soluciones completas para gestionar su inventario de piezas y equipos obsoletos de maquinaria de construcción.",
+    "service1": {
+      "title": "Compra de Material Obsoleto",
+      "description": "Compramos su inventario inactivo, liberando espacio en su almacén y generando ingresos inmediatos."
+    },
+    "service2": {
+      "title": "Venta de Piezas Usadas",
+      "description": "Ofrecemos piezas usadas de calidad a precios competitivos, ahorrando en su presupuesto de mantenimiento."
+    },
+    "service3": {
+      "title": "Gestión de Inventario",
+      "description": "Ayudamos a identificar y gestionar piezas obsoletas en su inventario para maximizar su valor."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "¿Tienes material obsoleto para vender o buscas piezas específicas? Ponte en contacto con nosotros.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "message": "Mensaje",
+      "submit": "Enviar"
+    },
+    "successMessage": "¡Mensaje enviado con éxito! Nos pondremos en contacto pronto."
+  },
+  "footer": {
+    "company": "Empresa",
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "terms": "Términos de Uso",
+    "privacy": "Política de Privacidad",
+    "social": "Redes Sociales",
+    "rights": "Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "header": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Donnez une Nouvelle Vie à Votre Matériel Obsolète",
+    "subtitle": "ReStocked est spécialisé dans l'achat et la vente de matériel obsolète de machines de chantier. Nous transformons les stocks inactifs en valeur réelle pour votre entreprise.",
+    "cta": "En Savoir Plus"
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "paragraph1": "ReStocked est une entreprise innovante qui se concentre sur la résolution d'un problème courant dans le secteur de la construction : l'accumulation de matériel obsolète de machines de chantier qui occupe de l'espace dans les entrepôts et représente un capital immobilisé.",
+    "paragraph2": "Notre mission est de donner une nouvelle vie à ces équipements, en connectant les entreprises qui disposent de matériel inutilisé avec celles qui ont besoin de pièces spécifiques à des prix abordables.",
+    "paragraph3": "Avec des opérations au Portugal et des plans d'expansion internationale, nous nous engageons à créer un marché plus efficace et plus durable pour les équipements de construction.",
+    "imageAlt": "Image de l'Entrepôt ReStocked"
+  },
+  "services": {
+    "title": "Nos Services",
+    "description": "Nous offrons des solutions complètes pour gérer votre inventaire de pièces et d'équipements obsolètes de machines de chantier.",
+    "service1": {
+      "title": "Achat de Matériel Obsolète",
+      "description": "Nous achetons votre inventaire inutilisé, libérant de l'espace dans votre entrepôt et générant des revenus immédiats."
+    },
+    "service2": {
+      "title": "Vente de Pièces Usagées",
+      "description": "Nous proposons des pièces d'occasion de qualité à des prix compétitifs, économisant votre budget de maintenance."
+    },
+    "service3": {
+      "title": "Gestion d'Inventaire",
+      "description": "Nous aidons à identifier et à gérer les pièces obsolètes de votre inventaire pour maximiser leur valeur."
+    }
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "description": "Vous avez du matériel obsolète à vendre ou vous recherchez des pièces spécifiques ? Contactez-nous.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Envoyer"
+    },
+    "successMessage": "Message envoyé avec succès ! Nous vous contacterons bientôt."
+  },
+  "footer": {
+    "company": "Entreprise",
+    "about": "À Propos",
+    "services": "Services",
+    "contact": "Contact",
+    "legal": "Légal",
+    "terms": "Conditions d'Utilisation",
+    "privacy": "Politique de Confidentialité",
+    "social": "Réseaux Sociaux",
+    "rights": "Tous droits réservés."
+  }
+}
