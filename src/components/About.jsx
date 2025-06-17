@@ -14,7 +14,7 @@ const About = () => {
             <p>{t('about.paragraph3')}</p>
           </div>
           <div className="about-image">
-            <img src="https://placehold.co/600x400" alt={t('about.imageAlt')} />
+            <img src="/image.png" alt={t('about.imageAlt')} />
           </div>
         </div>
       </div>

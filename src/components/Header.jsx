@@ -28,9 +28,9 @@ const Header = () => {
             <li className="nav-item">
               <a href="#services" className="nav-link">{t('header.services')}</a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a href="#contact" className="nav-link">{t('header.contact')}</a>
-            </li>
+            </li> */}
           </ul>
         </nav>
         

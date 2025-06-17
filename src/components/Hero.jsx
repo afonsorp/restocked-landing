@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="container">
         <h1>{t('hero.title')}</h1>
         <p>{t('hero.subtitle')}</p>
-        <button className="cta-button">{t('hero.cta')}</button>
+        {/* <button className="cta-button">{t('hero.cta')}</button> */}
       </div>
     </section>
   );

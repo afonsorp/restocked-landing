@@ -17,13 +17,13 @@ const Footer = () => {
               <li className="footer-link">
                 <a href="#services">{t('footer.services')}</a>
               </li>
-              <li className="footer-link">
+              {/* <li className="footer-link">
                 <a href="#contact">{t('footer.contact')}</a>
-              </li>
+              </li> */}
             </ul>
           </div>
           
-          <div className="footer-column">
+          {/* <div className="footer-column">
             <h3>{t('footer.legal')}</h3>
             <ul className="footer-links">
               <li className="footer-link">
@@ -33,9 +33,9 @@ const Footer = () => {
                 <a href="#">{t('footer.privacy')}</a>
               </li>
             </ul>
-          </div>
+          </div> */}
           
-          <div className="footer-column">
+          {/* <div className="footer-column">
             <h3>{t('footer.social')}</h3>
             <ul className="footer-links">
               <li className="footer-link">
@@ -48,7 +48,7 @@ const Footer = () => {
                 <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         
         <div className="footer-bottom">
