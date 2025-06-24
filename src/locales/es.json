@@ -1,58 +1,76 @@
 {
-  "header": {
-    "home": "Inicio",
-    "about": "Nosotros",
-    "services": "Servicios",
-    "contact": "Contacto"
-  },
   "hero": {
-    "title": "Da Nueva Vida a Tu Material Obsoleto",
-    "subtitle": "ReStocked se especializa en la compra y venta de material obsoleto de maquinaria de construcción. Transformamos inventario inactivo en valor real para tu negocio.",
-    "cta": "Saber Más"
+    "title": "ReStocked.pt",
+    "subtitle": "Comparte Stock. Compra Stock. Restocked.",
+    "description": "El marketplace donde el stock obsoleto vuelve a ser útil para quienes lo necesitan.",
+    "cta": {
+      "primary": "Empezar Ahora",
+      "secondary": "Saber Más"
+    },
+    "maquinas":"Máquinas",
+    "economia":"Economía Circular",
+    "competitivos":"Precios Competitivos"
   },
   "about": {
-    "title": "Sobre Nosotros",
-    "paragraph1": "ReStocked es una empresa innovadora enfocada en resolver un problema común en el sector de la construcción: la acumulación de material obsoleto de maquinaria de obras que ocupa espacio en almacenes y representa capital inactivo.",
-    "paragraph2": "Nuestra misión es dar nueva vida a estos equipos, conectando empresas que tienen material inactivo con aquellas que necesitan piezas específicas a precios asequibles.",
-    "paragraph3": "Con operaciones en Portugal y planes de expansión internacional, estamos comprometidos en crear un mercado más eficiente y sostenible para equipos de construcción.",
-    "imageAlt": "Imagen del Almacén ReStocked"
+    "title": "Sobre ReStocked",
+    "content": "Somos Restocked.pt – el marketplace donde el stock obsoleto vuelve a ser útil para quienes lo necesitan. Para los vendedores, es una manera de generar ventas de artículos que probablemente no serían considerados generadores de ingresos. Para los compradores, es una manera de obtener productos en buen estado a precios igualmente competitivos comparados con los mismos artículos en el mercado actual.\n\nOtra ventaja es que podríamos tener la pieza que ya no puedes encontrar en ningún otro lugar – ya sea debido a la producción descontinuada o simplemente un desabastecimiento temporal. De cualquier manera, ambos escenarios hacen posible dar visibilidad a artículos que de otra forma no estarían en el mercado, creando oportunidades ventajosas para ambos lados: vendedores y compradores."
   },
-  "services": {
-    "title": "Nuestros Servicios",
-    "description": "Ofrecemos soluciones completas para gestionar su inventario de piezas y equipos obsoletos de maquinaria de construcción.",
-    "service1": {
-      "title": "Compra de Material Obsoleto",
-      "description": "Compramos su inventario inactivo, liberando espacio en su almacén y generando ingresos inmediatos."
-    },
-    "service2": {
-      "title": "Venta de Piezas Usadas",
-      "description": "Ofrecemos piezas usadas de calidad a precios competitivos, ahorrando en su presupuesto de mantenimiento."
-    },
-    "service3": {
-      "title": "Gestión de Inventario",
-      "description": "Ayudamos a identificar y gestionar piezas obsoletas en su inventario para maximizar su valor."
-    }
+  "rules": {
+    "title": "Reglas",
+    "content": "Nuestro compromiso es con todos los vendedores y clientes. Nuestra calidad depende directamente de la calidad del stock que deseas vender. Ten en cuenta que también podrías ser un comprador. Lo peor que podemos hacer es crear expectativas que no se cumplirán.\n\nImagina encontrar una pieza en nuestra plataforma, pero al recibirla, te das cuenta de que está dañada o físicamente defectuosa. Tu confiabilidad está en juego—pero también la nuestra.\n\nAyúdanos a mover tu stock de manera práctica, sin costo, segura y duradera. Nos esforzamos por alta confiabilidad. Por favor, lee nuestra política, que es parte del acuerdo marco que firmarás con nosotros."
+  },
+  "howToPost": {
+    "title": "Cómo Publicar Tu Stock",
+    "content": "Todos los artículos deben cargarse en el archivo compartido disponible en el sitio web, después de que tu registro haya sido validado por nuestro equipo. Nota importante: todos los artículos deben incluir una referencia OEM. Todos los artículos deben estar en su forma y condición originales, sin signos de uso. Además de la referencia OEM obligatoria, el artículo debe valorarse según el precio de compra en el momento de su adquisición original. Si hay múltiples unidades disponibles, debe indicarse el número de unidades."
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "content": "Cuando subes tu lista de piezas, los artículos quedan disponibles en nuestra plataforma para compra. El precio de venta está sujeto a costos de envío adicionales, que son completamente asumidos por el comprador y dependen del tipo de entrega solicitada – exprés o estándar."
+  },
+  "returnPolicy": {
+    "title": "Política de Devoluciones",
+    "content": "Cualquier queja del cliente final sobre la calidad o defecto de una pieza que se demuestre válida está completamente fuera de la responsabilidad de Restocked. Los costos de envío de devolución serán asumidos por el comprador, pero el vendedor debe reembolsar completamente el valor del artículo.\n\nEl margen de Restocked no será reembolsado y, en esta situación, debe considerarse como una 'penalización' por la falla en la calidad del stock proporcionado en la plataforma. En otras palabras, la responsabilidad de listar stock válido aumenta y se vuelve penalizadora para quienes no cumplan con este principio.\n\nEsta es una buena práctica esencial para nosotros: no compartas con otros lo que no querrías que compartieran contigo. ¡Regla de oro de Restocked, defendiendo todos los intereses!"
+  },
+  "commission": {
+    "title": "¿Qué Ganamos Nosotros?",
+    "content": "Restocked gana un margen fijo por artículo vendido, independientemente del valor del artículo o del monto total de la transacción.",
+    "subtitle": "¿Qué cubre esta comisión?",
+    "subcontent": "Nos especializamos en dirigir el stock listado a clientes finales que comparten con nosotros su inventario de maquinaria, permitiéndonos saber exactamente quién podría necesitar cada artículo. Además, las mismas empresas que listan su stock a menudo se encuentran necesitando piezas de otros.\n\nCircularidad. Oportunidad. Ahorro. Ganancia. Eso es esencialmente lo que somos... y porque creemos que lo hacemos bien, deberíamos ganar algo de beneficio para mantener esta misión funcionando y mejorando cada vez más. Si mejoramos continuamente, nos convertiremos en un socio fuerte para todos nuestros clientes. Y ese es el objetivo – que el stock obsoleto termine con nosotros. Con nosotros, el concepto de 'obsoleto' llega a su fin."
   },
   "contact": {
-    "title": "Contacto",
-    "description": "¿Tienes material obsoleto para vender o buscas piezas específicas? Ponte en contacto con nosotros.",
+    "title": "Contáctanos",
+    "subtitle": "¿Listo para empezar?",
+    "description": "Ponte en contacto con nosotros para saber más sobre cómo ReStocked puede ayudar a tu negocio.",
     "form": {
-      "name": "Nombre",
-      "email": "Correo Electrónico",
-      "message": "Mensaje",
-      "submit": "Enviar"
+      "name": "Nombre *",
+      "email": "Email *",
+      "company": "Empresa",
+      "phone": "Teléfono",
+      "message": "Mensaje *",
+      "submit": "Enviar Mensaje"
     },
-    "successMessage": "¡Mensaje enviado con éxito! Nos pondremos en contacto pronto."
+    "email": "Email",
+    "location": "Ubicación",
+    "available": "Disponibilidad"
+  },
+  "navigation": {
+    "about": "Sobre",
+    "rules": "Reglas",
+    "howToPost": "Cómo Publicar",
+    "howItWorks": "Cómo Funciona",
+    "returnPolicy": "Política de Devoluciones",
+    "commission": "Comisión",
+    "contact": "Contacto"
   },
   "footer": {
+    "tagline": "Comparte Stock. Compra Stock. Restocked.",
     "company": "Empresa",
-    "about": "Sobre Nosotros",
-    "services": "Servicios",
-    "contact": "Contacto",
-    "legal": "Legal",
-    "terms": "Términos de Uso",
-    "privacy": "Política de Privacidad",
-    "social": "Redes Sociales",
-    "rights": "Todos los derechos reservados."
+    "platform": "Plataforma",
+    "policies": "Políticas",
+    "copyright": "© 2025 ReStocked.pt. Todos los derechos reservados."
+  },
+  "messages": {
+    "success": "¡Mensaje enviado con éxito! Te contactaremos pronto.",
+    "error": "Error al enviar mensaje. Por favor, inténtalo de nuevo."
   }
 }

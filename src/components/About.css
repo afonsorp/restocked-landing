@@ -1,0 +1,213 @@
+.about-section {
+  padding: var(--space-20) 0;
+  background: var(--color-background);
+}
+
+.about__content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about__header {
+  text-align: center;
+  margin-bottom: var(--space-16);
+}
+
+.about__icon {
+  width: 80px;
+  height: 80px;
+  background: rgba(46, 125, 50, 0.1);
+  border: 2px solid rgba(46, 125, 50, 0.2);
+  border-radius: var(--radius-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--space-6);
+}
+
+.about__icon svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--color-brand-primary);
+}
+
+.about__title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-6);
+}
+
+.about__description {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--space-16);
+}
+
+.about__paragraph {
+  margin-bottom: var(--space-6);
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.about__features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-8);
+  margin-bottom: var(--space-16);
+}
+
+.feature-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  text-align: center;
+  transition: all var(--transition-base);
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-brand-primary) 0%, #4CAF50 100%);
+  transform: scaleX(0);
+  transition: transform var(--transition-base);
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+  border-color: rgba(46, 125, 50, 0.2);
+}
+
+.feature-card:hover::before {
+  transform: scaleX(1);
+}
+
+.feature-card__icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(46, 125, 50, 0.1);
+  border: 2px solid rgba(46, 125, 50, 0.2);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--space-4);
+  transition: all var(--transition-base);
+}
+
+.feature-card__icon svg {
+  width: 1.75rem;
+  height: 1.75rem;
+  color: var(--color-brand-primary);
+}
+
+.feature-card:hover .feature-card__icon {
+  background: var(--color-brand-primary);
+  border-color: var(--color-brand-primary);
+}
+
+.feature-card:hover .feature-card__icon svg {
+  color: white;
+}
+
+.feature-card__title {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-3);
+}
+
+.feature-card__description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.about__tagline {
+  text-align: center;
+  padding: var(--space-12);
+  background: linear-gradient(135deg, rgba(46, 125, 50, 0.05) 0%, rgba(46, 125, 50, 0.1) 100%);
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(46, 125, 50, 0.1);
+}
+
+.about__tagline-text {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 600;
+  color: var(--color-brand-primary);
+  margin: 0;
+  letter-spacing: -0.025em;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .about-section {
+    padding: var(--space-16) 0;
+  }
+
+  .about__features {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .feature-card {
+    padding: var(--space-6);
+  }
+
+  .about__description {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .about__tagline {
+    padding: var(--space-8);
+  }
+}
+
+@media (max-width: 480px) {
+  .about__header {
+    margin-bottom: var(--space-12);
+  }
+
+  .about__icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .about__icon svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .feature-card__icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .feature-card__icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .about__tagline {
+    background: linear-gradient(135deg, rgba(46, 125, 50, 0.1) 0%, rgba(46, 125, 50, 0.15) 100%);
+    border-color: rgba(46, 125, 50, 0.2);
+  }
+}

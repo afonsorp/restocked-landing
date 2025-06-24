@@ -1,58 +1,76 @@
 {
-  "header": {
-    "home": "Accueil",
-    "about": "À Propos",
-    "services": "Services",
-    "contact": "Contact"
-  },
   "hero": {
-    "title": "Donnez une Nouvelle Vie à Votre Matériel Obsolète",
-    "subtitle": "ReStocked est spécialisé dans l'achat et la vente de matériel obsolète de machines de chantier. Nous transformons les stocks inactifs en valeur réelle pour votre entreprise.",
-    "cta": "En Savoir Plus"
+    "title": "ReStocked.pt",
+    "subtitle": "Partagez Stock. Achetez Stock. Restocked.",
+    "description": "La marketplace où le stock obsolète redevient utile pour ceux qui en ont besoin.",
+    "cta": {
+      "primary": "Commencer Maintenant",
+      "secondary": "En Savoir Plus"
+    },
+    "maquinas":"Machines",
+    "economia":"Économie Circulaire",
+    "competitivos":"Prix Compétitifs"
   },
   "about": {
-    "title": "À Propos de Nous",
-    "paragraph1": "ReStocked est une entreprise innovante qui se concentre sur la résolution d'un problème courant dans le secteur de la construction : l'accumulation de matériel obsolète de machines de chantier qui occupe de l'espace dans les entrepôts et représente un capital immobilisé.",
-    "paragraph2": "Notre mission est de donner une nouvelle vie à ces équipements, en connectant les entreprises qui disposent de matériel inutilisé avec celles qui ont besoin de pièces spécifiques à des prix abordables.",
-    "paragraph3": "Avec des opérations au Portugal et des plans d'expansion internationale, nous nous engageons à créer un marché plus efficace et plus durable pour les équipements de construction.",
-    "imageAlt": "Image de l'Entrepôt ReStocked"
+    "title": "À Propos de ReStocked",
+    "content": "Nous sommes Restocked.pt – la marketplace où le stock obsolète redevient utile pour ceux qui en ont besoin. Pour les vendeurs, c'est un moyen de générer des ventes à partir d'articles qui ne seraient probablement pas considérés comme générateurs de revenus. Pour les acheteurs, c'est un moyen d'obtenir des produits en bon état à des prix tout aussi compétitifs par rapport aux mêmes articles sur le marché actuel.\n\nUn autre avantage est que nous pourrions avoir la pièce que vous ne pouvez plus trouver ailleurs – que ce soit en raison d'une production discontinue ou simplement d'une rupture de stock temporaire. Dans tous les cas, les deux scénarios permettent de donner de la visibilité à des articles qui ne seraient pas autrement sur le marché, créant des opportunités avantageuses pour les deux parties : vendeurs et acheteurs."
   },
-  "services": {
-    "title": "Nos Services",
-    "description": "Nous offrons des solutions complètes pour gérer votre inventaire de pièces et d'équipements obsolètes de machines de chantier.",
-    "service1": {
-      "title": "Achat de Matériel Obsolète",
-      "description": "Nous achetons votre inventaire inutilisé, libérant de l'espace dans votre entrepôt et générant des revenus immédiats."
-    },
-    "service2": {
-      "title": "Vente de Pièces Usagées",
-      "description": "Nous proposons des pièces d'occasion de qualité à des prix compétitifs, économisant votre budget de maintenance."
-    },
-    "service3": {
-      "title": "Gestion d'Inventaire",
-      "description": "Nous aidons à identifier et à gérer les pièces obsolètes de votre inventaire pour maximiser leur valeur."
-    }
+  "rules": {
+    "title": "Règles",
+    "content": "Notre engagement est envers tous les vendeurs et clients. Notre qualité dépend directement de la qualité du stock que vous souhaitez vendre. Gardez à l'esprit que vous pourriez aussi être un acheteur. Le pire que nous puissions faire est de créer des attentes qui ne seront pas satisfaites.\n\nImaginez trouver une pièce sur notre plateforme, mais en la recevant, vous réalisez qu'elle est endommagée ou physiquement défectueuse. C'est votre fiabilité qui est en jeu – mais la nôtre aussi.\n\nAidez-nous à déplacer votre stock de manière pratique, sans coût, sécurisée et durable. Nous visons une haute fiabilité. Veuillez lire notre politique, qui fait partie de l'accord-cadre que vous signerez avec nous."
+  },
+  "howToPost": {
+    "title": "Comment Publier Votre Stock",
+    "content": "Tous les articles doivent être téléchargés dans le fichier partagé disponible sur le site web, après que votre inscription ait été validée par notre équipe. Note importante : tous les articles doivent inclure une référence OEM. Tous les articles doivent être dans leur forme et condition originales, sans signes d'utilisation. En plus de la référence OEM obligatoire, l'article doit être évalué en fonction du prix d'achat au moment de son acquisition originale. Si plusieurs unités sont disponibles, le nombre d'unités doit être indiqué."
+  },
+  "howItWorks": {
+    "title": "Comment Ça Marche",
+    "content": "Lorsque vous téléchargez votre liste de pièces, les articles deviennent disponibles sur notre plateforme pour achat. Le prix de vente est soumis à des frais d'expédition supplémentaires, qui sont entièrement supportés par l'acheteur et dépendent du type de livraison demandée – express ou standard."
+  },
+  "returnPolicy": {
+    "title": "Politique de Retour",
+    "content": "Toute plainte du client final concernant la qualité ou le défaut d'une pièce qui s'avère valide est entièrement en dehors de la responsabilité de Restocked. Les frais d'expédition de retour seront supportés par l'acheteur, mais le vendeur doit rembourser intégralement la valeur de l'article.\n\nLa marge de Restocked ne sera pas remboursée et, dans cette situation, doit être considérée comme une 'pénalité' pour l'échec de la qualité du stock fourni sur la plateforme. En d'autres termes, la responsabilité de lister un stock valide augmente et devient pénalisante pour ceux qui ne respectent pas ce principe.\n\nC'est une bonne pratique essentielle pour nous : ne partagez pas avec d'autres ce que vous ne voudriez pas qu'on partage avec vous. Règle d'or de Restocked, défendant tous les intérêts !"
+  },
+  "commission": {
+    "title": "Qu'est-ce Que Nous Y Gagnons ?",
+    "content": "Restocked gagne une marge fixe par article vendu, indépendamment de la valeur de l'article ou du montant total de la transaction.",
+    "subtitle": "Que couvre cette commission ?",
+    "subcontent": "Nous nous spécialisons dans l'orientation du stock listé vers les clients finaux qui partagent avec nous leur inventaire de machines, nous permettant de savoir exactement qui pourrait avoir besoin de chaque article. De plus, les entreprises mêmes qui listent leur stock se trouvent souvent dans le besoin de pièces d'autres.\n\nCircularité. Opportunité. Économies. Profit. C'est essentiellement ce que nous sommes... et parce que nous croyons que nous le faisons bien, nous devrions gagner du profit pour maintenir cette mission en marche et de mieux en mieux. Si nous nous améliorons continuellement, nous deviendrons un partenaire solide pour tous nos clients. Et c'est l'objectif – que le stock obsolète se termine avec nous. Avec nous, le concept d'« obsolète » prend fin."
   },
   "contact": {
-    "title": "Contactez-Nous",
-    "description": "Vous avez du matériel obsolète à vendre ou vous recherchez des pièces spécifiques ? Contactez-nous.",
+    "title": "Contactez-nous",
+    "subtitle": "Prêt à commencer ?",
+    "description": "Contactez-nous pour en savoir plus sur la façon dont ReStocked peut aider votre entreprise.",
     "form": {
-      "name": "Nom",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Envoyer"
+      "name": "Nom *",
+      "email": "Email *",
+      "company": "Entreprise",
+      "phone": "Téléphone",
+      "message": "Message *",
+      "submit": "Envoyer le Message"
     },
-    "successMessage": "Message envoyé avec succès ! Nous vous contacterons bientôt."
+    "email": "Email",
+    "location": "Emplacement",
+    "available": "Disponibilité"
+  },
+  "navigation": {
+    "about": "À Propos",
+    "rules": "Règles",
+    "howToPost": "Comment Publier",
+    "howItWorks": "Comment Ça Marche",
+    "returnPolicy": "Politique de Retour",
+    "commission": "Commission",
+    "contact": "Contact"
   },
   "footer": {
+    "tagline": "Partagez Stock. Achetez Stock. Restocked.",
     "company": "Entreprise",
-    "about": "À Propos",
-    "services": "Services",
-    "contact": "Contact",
-    "legal": "Légal",
-    "terms": "Conditions d'Utilisation",
-    "privacy": "Politique de Confidentialité",
-    "social": "Réseaux Sociaux",
-    "rights": "Tous droits réservés."
+    "platform": "Plateforme",
+    "policies": "Politiques",
+    "copyright": "© 2025 ReStocked.pt. Tous droits réservés."
+  },
+  "messages": {
+    "success": "Message envoyé avec succès ! Nous vous contacterons bientôt.",
+    "error": "Erreur lors de l'envoi du message. Veuillez réessayer."
   }
 }

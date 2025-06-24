@@ -1,58 +1,76 @@
 {
-  "header": {
-    "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "contact": "Contact"
-  },
   "hero": {
-    "title": "Give New Life to Your Obsolete Material",
-    "subtitle": "ReStocked specializes in buying and selling obsolete construction machinery parts. We transform idle inventory into real value for your business.",
-    "cta": "Learn More"
+    "title": "ReStocked.pt",
+    "subtitle": "Share Stock. Buy Stock. Restocked.",
+    "description": "The marketplace where obsolete stock becomes useful again to those who need it.",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "Learn More"
+    },
+    "maquinas":"Machines",
+    "economia":"Circular Economy",
+    "competitivos":"Competitive Prices"
   },
   "about": {
-    "title": "About Us",
-    "paragraph1": "ReStocked is an innovative company focused on solving a common problem in the construction sector: the accumulation of obsolete construction machinery parts that occupy warehouse space and represent idle capital.",
-    "paragraph2": "Our mission is to give new life to this equipment, connecting companies that have idle material with those that need specific parts at affordable prices.",
-    "paragraph3": "With operations in Portugal and international expansion plans, we are committed to creating a more efficient and sustainable market for construction equipment.",
-    "imageAlt": "ReStocked Warehouse Image"
+    "title": "About ReStocked",
+    "content": "We are Restocked.pt – the marketplace where obsolete stock becomes useful again to those who need it. For sellers, it's a way to generate sales from items that would likely not be considered revenue-generating. For buyers, it's a way to obtain products in good condition at equally competitive prices compared to the same items in today's market.\n\nAnother advantage is that we might have the part you can no longer find elsewhere – whether due to discontinued production or simply a temporary stockout. Either way, both scenarios make it possible to give visibility to items that wouldn't otherwise be on the market, creating advantageous opportunities for both sides: sellers and buyers."
   },
-  "services": {
-    "title": "Our Services",
-    "description": "We offer complete solutions to manage your inventory of obsolete parts and equipment from construction machinery.",
-    "service1": {
-      "title": "Purchase of Obsolete Material",
-      "description": "We buy your idle inventory, freeing up space in your warehouse and generating immediate revenue."
-    },
-    "service2": {
-      "title": "Sale of Used Parts",
-      "description": "We offer quality used parts at competitive prices, saving your maintenance budget."
-    },
-    "service3": {
-      "title": "Inventory Management",
-      "description": "We help identify and manage obsolete parts in your inventory to maximize their value."
-    }
+  "rules": {
+    "title": "Rules",
+    "content": "Our commitment is to all sellers and customers. Our quality depends directly on the quality of the stock you wish to sell. Keep in mind that you could also be a buyer. The worst we can do is create expectations that won't be met.\n\nImagine finding a part on our platform, but upon receiving it, you realize it's damaged or physically defective. It's your reliability at stake—but ours as well.\n\nHelp us move your stock in a practical, cost-free, secure, and lasting way. We strive for high reliability. Please read our policy, which is part of the framework agreement you will sign with us."
+  },
+  "howToPost": {
+    "title": "How to Post Your Stock",
+    "content": "All items must be uploaded to the shared file available on the website, after your registration has been validated by our team. Please note: all items must include an OEM reference. All items must be in their original form and condition, with no signs of use. In addition to the mandatory OEM reference, the item must be valued based on the purchase price at the time of its original acquisition. If multiple units are available, the number of units must be indicated."
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "content": "When you upload your parts list, the items become available on our platform for purchase. The selling price is subject to additional shipping costs, which are entirely borne by the buyer and depend on the type of delivery requested – express or standard."
+  },
+  "returnPolicy": {
+    "title": "Return Policy",
+    "content": "Any complaint from the end customer regarding the quality or defect of a part that is proven to be valid is entirely outside Restocked responsibility. The return shipping costs will be borne by the buyer, but the seller must fully refund the value of the item.\n\nRestocked margin will not be refunded and, in this situation, should be regarded as a 'penalty' for the failure in stock quality provided on the platform. In other words, the responsibility of listing valid stock increases and becomes penalizing for those who do not comply with this principle.\n\nThis is a best practice that is essential to us: do not share with others what you wouldn't want shared with you. Restocked golden rule, defending all interests!"
+  },
+  "commission": {
+    "title": "What's In It For Us?",
+    "content": "Restocked earns a fixed margin per item sold, regardless of the item's value or the total transaction amount.",
+    "subtitle": "What does this commission cover?",
+    "subcontent": "We specialize in directing the listed stock to end customers who share their machinery inventory with us, allowing us to know exactly who might need each item. Additionally, the very companies that list their stock often find themselves in need of parts from others.\n\nCircularity. Opportunity. Savings. Profit. That's essentially who we are... and because we believe we do it well, we should earn some profit to keep this mission going and getting better and better. If we continuously improve, we will become a strong partner for all our clients. And that is the goal – for obsolete stock to end with us. With us, the concept of 'obsolete' comes to an end."
   },
   "contact": {
     "title": "Contact Us",
-    "description": "Have obsolete material to sell or looking for specific parts? Get in touch with us.",
+    "subtitle": "Ready to get started?",
+    "description": "Get in touch with us to learn more about how ReStocked can help your business.",
     "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Send"
+      "name": "Name *",
+      "email": "Email *",
+      "company": "Company",
+      "phone": "Phone",
+      "message": "Message *",
+      "submit": "Send Message"
     },
-    "successMessage": "Message sent successfully! We will contact you soon."
+    "email": "Email",
+    "location": "Location",
+    "available": "Availability"
+  },
+  "navigation": {
+    "about": "About",
+    "rules": "Rules",
+    "howToPost": "How to Post",
+    "howItWorks": "How It Works",
+    "returnPolicy": "Return Policy",
+    "commission": "Commission",
+    "contact": "Contact"
   },
   "footer": {
+    "tagline": "Share Stock. Buy Stock. Restocked.",
     "company": "Company",
-    "about": "About Us",
-    "services": "Services",
-    "contact": "Contact",
-    "legal": "Legal",
-    "terms": "Terms of Use",
-    "privacy": "Privacy Policy",
-    "social": "Social Media",
-    "rights": "All rights reserved."
+    "platform": "Platform",
+    "policies": "Policies",
+    "copyright": "© 2025 ReStocked.pt. All rights reserved."
+  },
+  "messages": {
+    "success": "Message sent successfully! We will contact you soon.",
+    "error": "Error sending message. Please try again."
   }
 }
