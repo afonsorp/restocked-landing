@@ -133,7 +133,11 @@ const Header = () => {
           </nav>
 
           <div className="header__actions">
+            <label htmlFor="language-selector" style={{ display: "none" }}>
+              {t('navigation.selectLanguage')}
+            </label>
             <select 
+              id="language-selector"
               className="language-selector"
               value={i18n.language} 
               onChange={(e) => changeLanguage(e.target.value)}
