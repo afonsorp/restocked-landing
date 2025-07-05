@@ -13,7 +13,21 @@
   },
   "about": {
     "title": "About ReStocked",
-    "content": "We are Restocked.pt – the marketplace where obsolete stock becomes useful again to those who need it. For sellers, it's a way to generate sales from items that would likely not be considered revenue-generating. For buyers, it's a way to obtain products in good condition at equally competitive prices compared to the same items in today's market.\n\nAnother advantage is that we might have the part you can no longer find elsewhere – whether due to discontinued production or simply a temporary stockout. Either way, both scenarios make it possible to give visibility to items that wouldn't otherwise be on the market, creating advantageous opportunities for both sides: sellers and buyers."
+    "content": "We are Restocked.pt – the marketplace where obsolete stock becomes useful again to those who need it. For sellers, it's a way to generate sales from items that would likely not be considered revenue-generating. For buyers, it's a way to obtain products in good condition at equally competitive prices compared to the same items in today's market.\n\nAnother advantage is that we might have the part you can no longer find elsewhere – whether due to discontinued production or simply a temporary stockout. Either way, both scenarios make it possible to give visibility to items that wouldn't otherwise be on the market, creating advantageous opportunities for both sides: sellers and buyers.",
+    "features": {
+      "sellers": {
+        "title": "For Sellers",
+        "description": "Transform idle stock into revenue. Value equipment that would otherwise not generate sales."
+      },
+      "buyers": {
+        "title": "For Buyers",
+        "description": "Find parts in good condition at competitive prices. Access to discontinued equipment."
+      },
+      "circularity": {
+        "title": "Circularity",
+        "description": "Circular economy that eliminates the concept of \"obsolete\". Sustainability and economic efficiency."
+      }
+    }
   },
   "rules": {
     "title": "Rules",

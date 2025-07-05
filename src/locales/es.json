@@ -13,7 +13,21 @@
   },
   "about": {
     "title": "Sobre ReStocked",
-    "content": "Somos Restocked.pt – el marketplace donde el stock obsoleto vuelve a ser útil para quienes lo necesitan. Para los vendedores, es una manera de generar ventas de artículos que probablemente no serían considerados generadores de ingresos. Para los compradores, es una manera de obtener productos en buen estado a precios igualmente competitivos comparados con los mismos artículos en el mercado actual.\n\nOtra ventaja es que podríamos tener la pieza que ya no puedes encontrar en ningún otro lugar – ya sea debido a la producción descontinuada o simplemente un desabastecimiento temporal. De cualquier manera, ambos escenarios hacen posible dar visibilidad a artículos que de otra forma no estarían en el mercado, creando oportunidades ventajosas para ambos lados: vendedores y compradores."
+    "content": "Somos Restocked.pt – el marketplace donde el stock obsoleto vuelve a ser útil para quienes lo necesitan. Para los vendedores, es una manera de generar ventas de artículos que probablemente no serían considerados generadores de ingresos. Para los compradores, es una manera de obtener productos en buen estado a precios igualmente competitivos comparados con los mismos artículos en el mercado actual.\n\nOtra ventaja es que podríamos tener la pieza que ya no puedes encontrar en ningún otro lugar – ya sea debido a la producción descontinuada o simplemente un desabastecimiento temporal. De cualquier manera, ambos escenarios hacen posible dar visibilidad a artículos que de otra forma no estarían en el mercado, creando oportunidades ventajosas para ambos lados: vendedores y compradores.",
+    "features": {
+      "sellers": {
+        "title": "Para Vendedores",
+        "description": "Transforma stock parado en ingresos. Valoriza equipos que de otra forma no generarían ventas."
+      },
+      "buyers": {
+        "title": "Para Compradores",
+        "description": "Encuentra piezas en buen estado a precios competitivos. Acceso a equipos descontinuados."
+      },
+      "circularity": {
+        "title": "Circularidad",
+        "description": "Economía circular que elimina el concepto de \"obsoleto\". Sostenibilidad y eficiencia económica."
+      }
+    }
   },
   "rules": {
     "title": "Reglas",

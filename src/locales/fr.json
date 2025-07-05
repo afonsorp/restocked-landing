@@ -13,7 +13,21 @@
   },
   "about": {
     "title": "À Propos de ReStocked",
-    "content": "Nous sommes Restocked.pt – la marketplace où le stock obsolète redevient utile pour ceux qui en ont besoin. Pour les vendeurs, c'est un moyen de générer des ventes à partir d'articles qui ne seraient probablement pas considérés comme générateurs de revenus. Pour les acheteurs, c'est un moyen d'obtenir des produits en bon état à des prix tout aussi compétitifs par rapport aux mêmes articles sur le marché actuel.\n\nUn autre avantage est que nous pourrions avoir la pièce que vous ne pouvez plus trouver ailleurs – que ce soit en raison d'une production discontinue ou simplement d'une rupture de stock temporaire. Dans tous les cas, les deux scénarios permettent de donner de la visibilité à des articles qui ne seraient pas autrement sur le marché, créant des opportunités avantageuses pour les deux parties : vendeurs et acheteurs."
+    "content": "Nous sommes Restocked.pt – la marketplace où le stock obsolète redevient utile pour ceux qui en ont besoin. Pour les vendeurs, c'est un moyen de générer des ventes à partir d'articles qui ne seraient probablement pas considérés comme générateurs de revenus. Pour les acheteurs, c'est un moyen d'obtenir des produits en bon état à des prix tout aussi compétitifs par rapport aux mêmes articles sur le marché actuel.\n\nUn autre avantage est que nous pourrions avoir la pièce que vous ne pouvez plus trouver ailleurs – que ce soit en raison d'une production discontinue ou simplement d'une rupture de stock temporaire. Dans tous les cas, les deux scénarios permettent de donner de la visibilité à des articles qui ne seraient pas autrement sur le marché, créant des opportunités avantageuses pour les deux parties : vendeurs et acheteurs.",
+    "features": {
+      "sellers": {
+        "title": "Pour les Vendeurs",
+        "description": "Transformez le stock inactif en revenus. Valorisez les équipements qui sinon ne généreraient pas de ventes."
+      },
+      "buyers": {
+        "title": "Pour les Acheteurs",
+        "description": "Trouvez des pièces en bon état à des prix compétitifs. Accès aux équipements discontinués."
+      },
+      "circularity": {
+        "title": "Circularité",
+        "description": "Économie circulaire qui élimine le concept d'\"obsolète\". Durabilité et efficacité économique."
+      }
+    }
   },
   "rules": {
     "title": "Règles",

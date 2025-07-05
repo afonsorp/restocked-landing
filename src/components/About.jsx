@@ -40,10 +40,9 @@ const About = () => {
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
               </div>
-              <h3 className="feature-card__title">Para Vendedores</h3>
+              <h3 className="feature-card__title">{t('about.features.sellers.title')}</h3>
               <p className="feature-card__description">
-                Transforme stock parado em receita. Valorize equipamentos que 
-                de outra forma não gerariam vendas.
+                {t('about.features.sellers.description')}
               </p>
             </div>
 
@@ -54,10 +53,9 @@ const About = () => {
                   <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"/>
                 </svg>
               </div>
-              <h3 className="feature-card__title">Para Compradores</h3>
+              <h3 className="feature-card__title">{t('about.features.buyers.title')}</h3>
               <p className="feature-card__description">
-                Encontre peças em bom estado a preços competitivos. 
-                Acesso a equipamentos descontinuados.
+                {t('about.features.buyers.description')}
               </p>
             </div>
 
@@ -69,10 +67,9 @@ const About = () => {
                   <line x1="12" y1="22.08" x2="12" y2="12"/>
                 </svg>
               </div>
-              <h3 className="feature-card__title">Circularidade</h3>
+              <h3 className="feature-card__title">{t('about.features.circularity.title')}</h3>
               <p className="feature-card__description">
-                Economia circular que elimina o conceito de "obsoleto". 
-                Sustentabilidade e eficiência económica.
+                {t('about.features.circularity.description')}
               </p>
             </div>
           </div>
