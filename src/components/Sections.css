@@ -285,7 +285,7 @@
 } */
 
 /* Dark mode support */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .section--secondary {
     background: rgba(45, 55, 72, 0.3);
   }
@@ -294,4 +294,4 @@
     background: rgba(0, 0, 0, 0.2);
     border-color: rgba(255, 255, 255, 0.15);
   }
-}
+} */

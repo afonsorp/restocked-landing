@@ -205,9 +205,9 @@
 }
 
 /* Dark mode support */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .about__tagline {
     background: linear-gradient(135deg, rgba(46, 125, 50, 0.1) 0%, rgba(46, 125, 50, 0.15) 100%);
     border-color: rgba(46, 125, 50, 0.2);
   }
-}
+} */

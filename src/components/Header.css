@@ -185,7 +185,7 @@
 }
 
 /* Dark mode support */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .header {
     background: rgba(26, 32, 44, 0.95);
     border-bottom-color: rgba(46, 125, 50, 0.2);
@@ -203,4 +203,4 @@
   .header__nav--open {
     background: var(--color-surface);
   }
-}
+} */

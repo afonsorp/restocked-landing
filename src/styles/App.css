@@ -57,7 +57,7 @@
 }
 
 /* Dark mode support */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --color-background: #1a202c;
     --color-surface: #2d3748;
@@ -68,7 +68,7 @@
     --color-brand-light: #1B5E20;
     --color-brand-dark: #66BB6A;
   }
-}
+} */
 
 /* Reset and Base Styles */
 * {
