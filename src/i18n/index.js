@@ -35,7 +35,7 @@ i18n
       escapeValue: false, // react já faz escape por padrão
     },
     detection: {
-      order: ['navigator', 'localStorage', 'htmlTag'],
+      order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
     }
   });
