@@ -41,12 +41,12 @@ const Hero = () => {
               >
                 {t('hero.cta.primary')}
               </button>
-              <button 
+{/*               <button 
                 className="btn btn--outline btn--lg hero__secondary"
                 onClick={() => scrollToSection('about')}
               >
                 {t('hero.cta.secondary')}
-              </button>
+              </button> */}
             </div>
 
             <div className="hero__stats">

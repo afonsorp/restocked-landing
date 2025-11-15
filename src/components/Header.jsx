@@ -59,7 +59,7 @@ const Header = () => {
             </a>
           </div>
 
-          <nav className={`header__nav ${isMobileMenuOpen ? 'header__nav--open' : ''}`}>
+          {/* <nav className={`header__nav ${isMobileMenuOpen ? 'header__nav--open' : ''}`}>
             <a 
               href="#about" 
               className="header__nav-link"
@@ -130,7 +130,7 @@ const Header = () => {
             >
               {t('navigation.contact')}
             </a>
-          </nav>
+          </nav> */}
 
           <div className="header__actions">
             <label htmlFor="language-selector" style={{ display: "none" }}>
@@ -148,7 +148,7 @@ const Header = () => {
               <option value="fr">🇫🇷 FR</option>
             </select>
 
-            <button 
+            {/* <button 
               className={`header__menu-toggle ${isMobileMenuOpen ? 'header__menu-toggle--open' : ''}`}
               onClick={toggleMobileMenu}
               aria-label="Toggle menu"
@@ -156,7 +156,7 @@ const Header = () => {
               <span></span>
               <span></span>
               <span></span>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

@@ -20,8 +20,9 @@
 }
 
 .footer__content {
-  display: grid;
-  grid-template-columns: 2fr 3fr;
+  display: flex;
+/*   display: grid;
+  grid-template-columns: 2fr 3fr; */
   gap: var(--space-12);
   margin-bottom: var(--space-12);
   position: relative;
@@ -144,7 +145,8 @@
 
 .footer__bottom-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  /* justify-content: space-between; */
   align-items: center;
   flex-wrap: wrap;
   gap: var(--space-4);

@@ -4,29 +4,15 @@ import './Contact.css';
 
 const Contact = () => {
   const { t } = useTranslation();
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    company: '',
-    phone: '',
-    message: ''
-  });
+  const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     // Validação básica
-    if (!formData.name || !formData.email || !formData.message) {
+    if (!email) {
       setSubmitStatus('error');
       return;
     }
@@ -34,18 +20,25 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // Simular envio de email (implementar com EmailJS ou similar)
-      await new Promise(resolve => setTimeout(resolve, 2000));
-
-      console.log('Form data:', formData);
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        company: '',
-        phone: '',
-        message: ''
+      // Enviar email para luis@restocked.pt
+      const response = await fetch('https://formspree.io/f/meovkjla', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email,
+          _replyto: email,
+          _subject: 'Nova submissão de email - ReStocked.pt',
+        }),
       });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setEmail('');
+      } else {
+        setSubmitStatus('error');
+      }
     } catch (error) {
       console.error('Error submitting form:', error);
       setSubmitStatus('error');
@@ -61,11 +54,57 @@ const Contact = () => {
           <div className="contact__header">
             <h2 className="contact__title">{t('contact.title')}</h2>
             <p className="contact__subtitle">{t('contact.subtitle')}</p>
-            <p className="contact__description">{t('contact.description')}</p>
+            {/* <p className="contact__description">{t('contact.description')}</p> */}
           </div>
 
           <div className="contact__wrapper">
-            <div className="contact__info">
+            <form className="contact__form" onSubmit={handleSubmit}>
+              {submitStatus === 'success' && (
+                <div className="alert alert--success">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="20,6 9,17 4,12"/>
+                  </svg>
+                  {t('messages.success')}
+                </div>
+              )}
+
+              {submitStatus === 'error' && (
+                <div className="alert alert--error">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <line x1="15" y1="9" x2="9" y2="15"/>
+                    <line x1="9" y1="9" x2="15" y2="15"/>
+                  </svg>
+                  {t('messages.error')}
+                </div>
+              )}
+
+              <div className="form-group">
+                <label htmlFor="email" className="form-label">
+                  {t('contact.form.email')}
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="form-control"
+                  required
+                  placeholder={t('contact.form.emailPlaceholder') || 'seu@email.com'}
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="btn btn--primary btn--lg btn--full-width"
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? '...' : t('contact.form.submit')}
+              </button>
+            </form>
+
+            {/* <div className="contact__info">
               <div className="contact-card">
                 <div className="contact-card__icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -104,112 +143,7 @@ const Contact = () => {
                   <p className="contact-card__text">24/7</p>
                 </div>
               </div>
-            </div>
-
-            {/* <form className="contact__form" onSubmit={handleSubmit}>
-              {submitStatus === 'success' && (
-                <div className="alert alert--success">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <polyline points="20,6 9,17 4,12"/>
-                  </svg>
-                  {t('messages.success')}
-                </div>
-              )}
-
-              {submitStatus === 'error' && (
-                <div className="alert alert--error">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <circle cx="12" cy="12" r="10"/>
-                    <line x1="15" y1="9" x2="9" y2="15"/>
-                    <line x1="9" y1="9" x2="15" y2="15"/>
-                  </svg>
-                  {t('messages.error')}
-                </div>
-              )}
-
-              <div className="form-row">
-                <div className="form-group">
-                  <label htmlFor="name" className="form-label">
-                    {t('contact.form.name')}
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className="form-control"
-                    required
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="email" className="form-label">
-                    {t('contact.form.email')}
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="form-control"
-                    required
-                  />
-                </div>
-              </div>
-
-              <div className="form-row">
-                <div className="form-group">
-                  <label htmlFor="company" className="form-label">
-                    {t('contact.form.company')}
-                  </label>
-                  <input
-                    type="text"
-                    id="company"
-                    name="company"
-                    value={formData.company}
-                    onChange={handleChange}
-                    className="form-control"
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="phone" className="form-label">
-                    {t('contact.form.phone')}
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="form-control"
-                  />
-                </div>
-              </div>
-
-              <div className="form-group">
-                <label htmlFor="message" className="form-label">
-                  {t('contact.form.message')}
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  className="form-control"
-                  rows="5"
-                  required
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                className="btn btn--primary btn--lg btn--full-width"
-                disabled={isSubmitting}
-              >
-                {isSubmitting ? '...' : t('contact.form.submit')}
-              </button>
-            </form> */}
+            </div> */}
           </div>
         </div>
       </div>

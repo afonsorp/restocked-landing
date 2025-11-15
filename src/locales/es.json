@@ -58,10 +58,11 @@
     "form": {
       "name": "Nombre *",
       "email": "Email *",
+      "emailPlaceholder": "tu@email.com",
       "company": "Empresa",
       "phone": "Teléfono",
       "message": "Mensaje *",
-      "submit": "Enviar Mensaje"
+      "submit": "Suscribirse al Newsletter"
     },
     "email": "Email",
     "location": "Ubicación",
@@ -85,7 +86,7 @@
     "copyright": "© 2025 ReStocked.pt. Todos los derechos reservados."
   },
   "messages": {
-    "success": "¡Mensaje enviado con éxito! Te contactaremos pronto.",
-    "error": "Error al enviar mensaje. Por favor, inténtalo de nuevo."
+    "success": "¡Email registrado con éxito! Bienvenido al newsletter de ReStocked.",
+    "error": "Error al registrar email. Por favor, inténtalo de nuevo."
   }
 }

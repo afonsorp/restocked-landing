@@ -19,8 +19,8 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <About />
-        <Sections />
+        {/* <About /> */}
+        {/* <Sections /> */}
         <Contact />
       </main>
       <Footer />
