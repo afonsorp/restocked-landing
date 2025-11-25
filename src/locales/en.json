@@ -107,6 +107,12 @@
   },
   "messages": {
     "success": "Email registered successfully! Welcome to ReStocked newsletter.",
-    "error": "Error registering email. Please try again."
+    "error": "Error registering email. Please try again.",
+    "submitting": "Submitting..."
+  },
+  "validation": {
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address"
   }
 }

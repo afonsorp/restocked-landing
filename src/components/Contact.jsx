@@ -32,14 +32,14 @@ const Contact = () => {
     const newErrors = {};
     
     if (!formData.name.trim() || formData.name.trim().length < 2) {
-      newErrors.name = 'Name is required';
+      newErrors.name = t('validation.nameRequired');
     }
     
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!formData.email.trim()) {
-      newErrors.email = 'Email is required';
+      newErrors.email = t('validation.emailRequired');
     } else if (!emailRegex.test(formData.email)) {
-      newErrors.email = 'Please enter a valid email address';
+      newErrors.email = t('validation.emailInvalid');
     }
     
     setErrors(newErrors);
@@ -96,7 +96,7 @@ const Contact = () => {
           </div>
 
           <div className="contact__wrapper">
-            <form className="contact__form" onSubmit={handleSubmit}>
+            <form className="contact__form" onSubmit={handleSubmit} noValidate>
               {submitStatus === 'success' && (
                 <div className="alert alert--success">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -156,6 +156,7 @@ const Contact = () => {
                     onChange={handleChange}
                     className="form-control"
                     placeholder="john@company.com"
+                    noValidate
                   />
                 </div>
                 {errors.email && <span className="error-message">{errors.email}</span>}
@@ -187,7 +188,7 @@ const Contact = () => {
                 className="btn btn--primary btn--lg btn--full-width"
                 disabled={isSubmitting}
               >
-                {isSubmitting ? 'Submitting...' : t('contact.form.submit')}
+                {isSubmitting ? t('messages.submitting') : t('contact.form.submit')}
               </button>
             </form>
           </div>

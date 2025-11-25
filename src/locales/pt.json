@@ -107,6 +107,12 @@
   },
   "messages": {
     "success": "Email registado com sucesso! Bem-vindo à newsletter da ReStocked.",
-    "error": "Erro ao registar email. Por favor, tente novamente."
+    "error": "Erro ao registar email. Por favor, tente novamente.",
+    "submitting": "A enviar..."
+  },
+  "validation": {
+    "nameRequired": "O nome é obrigatório",
+    "emailRequired": "O email é obrigatório",
+    "emailInvalid": "Por favor, insira um endereço de email válido"
   }
 }
