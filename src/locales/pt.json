@@ -1,15 +1,35 @@
 {
   "hero": {
     "title": "ReStocked.pt",
-    "subtitle": "Partilhe Stock. Compre Stock. Restocked.",
-    "description": "O marketplace onde stock obsoleto volta a ser útil para quem precisa.",
+    "subtitle": "Partilhe stock, compre stock, ReStocked",
+    "description": "O marketplace onde peças de máquinas obsoletas voltam a ser úteis para quem precisa",
     "cta": {
       "primary": "Começar Agora",
       "secondary": "Saber Mais"
+    }
+  },
+  "features": {
+    "title": "Porquê Escolher a ReStocked",
+    "machineParts": {
+      "title": "Peças de máquinas",
+      "description": "Ampla seleção de peças de máquinas de qualidade"
     },
-    "maquinas":"Máquinas",
-    "economia":"Economia Circular",
-    "competitivos":"Preços Competitivos"
+    "stockReduction": {
+      "title": "Redução de stock",
+      "description": "Otimização de stock obsoleto de peças de máquinas"
+    },
+    "economicValue": {
+      "title": "Valor Económico",
+      "description": "Criação de mercados para peças de máquinas obsoletas"
+    },
+    "shortLeadTime": {
+      "title": "Prazo curto",
+      "description": "Entrega rápida de peças disponíveis vs. novo fabrico"
+    },
+    "circularity": {
+      "title": "Circularidade",
+      "description": "Prolongamento do ciclo de vida das peças de máquinas"
+    }
   },
   "about": {
     "title": "Sobre a ReStocked",
@@ -52,17 +72,17 @@
     "subcontent": "Especializamo-nos em direcionar o stock listado para clientes finais que partilham connosco o seu inventário de maquinaria, permitindo-nos saber exatamente quem pode precisar de cada item. Para além disso, as próprias empresas que listam o seu stock muitas vezes encontram-se em necessidade de peças de outros.\n\nCircularidade. Oportunidade. Poupança. Lucro. É essencialmente quem somos... e porque acreditamos que o fazemos bem, devemos ganhar algum lucro para manter esta missão em funcionamento e cada vez melhor. Se melhorarmos continuamente, tornar-nos-emos um parceiro forte para todos os nossos clientes. E esse é o objetivo – que o stock obsoleto termine connosco. Connosco, o conceito de 'obsoleto' chega ao fim."
   },
   "contact": {
-    "title": "Contacte-nos",
-    "subtitle": "Pronto para começar?",
+    "title": "Junte-se à Lista de Espera",
+    "subtitle": "Seja o primeiro a saber quando lançarmos e obtenha acesso antecipado ao marketplace",
     "description": "Entre em contacto connosco para saber mais sobre como a ReStocked pode ajudar o seu negócio.",
     "form": {
-      "name": "Nome *",
-      "email": "Email *",
+      "name": "O Seu Nome *",
+      "email": "Endereço de Email *",
       "emailPlaceholder": "seu@email.com",
-      "company": "Empresa",
+      "company": "Empresa (Opcional)",
       "phone": "Telefone",
       "message": "Mensagem *",
-      "submit": "Subscrever Newsletter"
+      "submit": "Juntar-se à Lista de Espera"
     },
     "email": "Email",
     "location": "Localização",

@@ -9,16 +9,14 @@
 }
 
 :root {
-  --primary-color: #2E7D32; /* Cor principal verde */
-  --text-color: #333;
-  --light-color: #f8f8f8;
-  --dark-color: #222;
   --primary-color: #2E7D32;      /* Verde principal */
   --primary-light: #4CAF50;      /* Verde claro */
   --primary-dark: #1B5E20;       /* Verde escuro */
   --secondary-color: #FF9800;     /* Laranja para CTAs */
   --background-color: #F5F5F5;    /* Cinza claro */
   --text-color: #333333;          /* Texto escuro */
+  --light-color: #f8f8f8;
+  --dark-color: #222;
   --white: #FFFFFF;               /* Branco */
   --font-family: 'Roboto', sans-serif;
 }
