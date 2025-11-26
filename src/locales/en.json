@@ -72,7 +72,8 @@
     "subcontent": "We specialize in directing the listed stock to end customers who share their machinery inventory with us, allowing us to know exactly who might need each item. Additionally, the very companies that list their stock often find themselves in need of parts from others.\n\nCircularity. Opportunity. Savings. Profit. That's essentially who we are... and because we believe we do it well, we should earn some profit to keep this mission going and getting better and better. If we continuously improve, we will become a strong partner for all our clients. And that is the goal – for obsolete stock to end with us. With us, the concept of 'obsolete' comes to an end."
   },
   "contact": {
-    "title": "Join the Waitlist",
+    "title": "Join the",
+    "waitlist": "Waitlist",
     "subtitle": "Be the first to know when we launch and get early access to the marketplace",
     "description": "Get in touch with us to learn more about how ReStocked can help your business.",
     "form": {
@@ -80,6 +81,7 @@
       "email": "Email Address *",
       "emailPlaceholder": "your@email.com",
       "company": "Company (Optional)",
+      "companyPlaceholder": "Your company name",
       "phone": "Phone",
       "message": "Message *",
       "submit": "Join Waitlist"

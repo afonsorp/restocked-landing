@@ -90,7 +90,7 @@ const Contact = () => {
         <div className="contact__content">
           <div className="contact__header">
             <h2 className="contact__title">
-              Join the <span className="highlight-green">Waitlist</span>
+              {t('contact.title')} <span className="highlight-green">{t('contact.waitlist')}</span>
             </h2>
             <p className="contact__subtitle">{t('contact.subtitle')}</p>
           </div>
@@ -178,7 +178,7 @@ const Contact = () => {
                     value={formData.company}
                     onChange={handleChange}
                     className="form-control"
-                    placeholder="Your company name"
+                    placeholder={t('contact.form.companyPlaceholder')}
                   />
                 </div>
               </div>

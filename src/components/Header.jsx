@@ -20,6 +20,38 @@ const Header = () => {
     i18n.changeLanguage(lng);
   };
 
+  const flags = {
+    pt: (
+      <svg width="20" height="15" viewBox="0 0 600 400" style={{ verticalAlign: 'middle', marginRight: '8px' }}>
+        <rect width="600" height="400" fill="#060"/>
+        <rect width="240" height="400" fill="#f00"/>
+        <circle cx="240" cy="200" r="80" fill="#ff0" stroke="#00f" strokeWidth="8"/>
+      </svg>
+    ),
+    en: (
+      <svg width="20" height="15" viewBox="0 0 60 30" style={{ verticalAlign: 'middle', marginRight: '8px' }}>
+        <rect width="60" height="30" fill="#012169"/>
+        <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" strokeWidth="6"/>
+        <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" strokeWidth="4" clipPath="url(#t)"/>
+        <path d="M30,0 v30 M0,15 h60" stroke="#fff" strokeWidth="10"/>
+        <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" strokeWidth="6"/>
+      </svg>
+    ),
+    es: (
+      <svg width="20" height="15" viewBox="0 0 750 500" style={{ verticalAlign: 'middle', marginRight: '8px' }}>
+        <rect width="750" height="500" fill="#c60b1e"/>
+        <rect y="125" width="750" height="250" fill="#ffc400"/>
+      </svg>
+    ),
+    fr: (
+      <svg width="20" height="15" viewBox="0 0 900 600" style={{ verticalAlign: 'middle', marginRight: '8px' }}>
+        <rect width="900" height="600" fill="#ED2939"/>
+        <rect width="600" height="600" fill="#fff"/>
+        <rect width="300" height="600" fill="#002395"/>
+      </svg>
+    )
+  };
+
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
@@ -136,17 +168,23 @@ const Header = () => {
             <label htmlFor="language-selector" style={{ display: "none" }}>
               {t('navigation.selectLanguage')}
             </label>
-            <select 
-              id="language-selector"
-              className="language-selector"
-              value={i18n.language} 
-              onChange={(e) => changeLanguage(e.target.value)}
-            >
-              <option value="pt">🇵🇹 PT</option>
-              <option value="en">🇬🇧 EN</option>
-              <option value="es">🇪🇸 ES</option>
-              <option value="fr">🇫🇷 FR</option>
-            </select>
+            <div className="language-selector-wrapper">
+              <select 
+                id="language-selector"
+                className="language-selector"
+                value={i18n.language} 
+                onChange={(e) => changeLanguage(e.target.value)}
+              >
+                <option value="pt">PT - Português</option>
+                <option value="en">EN - English</option>
+                <option value="es">ES - Español</option>
+                <option value="fr">FR - Français</option>
+              </select>
+              <div className="language-selector-display">
+                {flags[i18n.language]}
+                <span>{i18n.language.toUpperCase()}</span>
+              </div>
+            </div>
 
             {/* <button 
               className={`header__menu-toggle ${isMobileMenuOpen ? 'header__menu-toggle--open' : ''}`}

@@ -59,10 +59,7 @@
 
 .hero__title-main {
   display: block;
-  background: linear-gradient(135deg, var(--color-brand-primary) 0%, #4CAF50 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #10B981;
 }
 
 .hero__description {

@@ -2,7 +2,7 @@
   "hero": {
     "title": "ReStocked.pt",
     "subtitle": "Comparte stock, compra stock, ReStocked",
-    "description": "El marketplace donde las piezas de máquinas obsoletas vuelven a ser útiles para quienes las necesitan",
+    "description": "El marketplace donde las piezas obsoletas de máquinas vuelven a ser útiles para quienes las necesitan",
     "cta": {
       "primary": "Empezar Ahora",
       "secondary": "Saber Más"
@@ -20,7 +20,7 @@
     },
     "economicValue": {
       "title": "Valor Económico",
-      "description": "Creación de mercados para piezas de máquinas obsoletas"
+      "description": "Nuevos mercados para piezas obsoletas de máquinas"
     },
     "shortLeadTime": {
       "title": "Plazo corto",
@@ -72,14 +72,16 @@
     "subcontent": "Nos especializamos en dirigir el stock listado a clientes finales que comparten con nosotros su inventario de maquinaria, permitiéndonos saber exactamente quién podría necesitar cada artículo. Además, las mismas empresas que listan su stock a menudo se encuentran necesitando piezas de otros.\n\nCircularidad. Oportunidad. Ahorro. Ganancia. Eso es esencialmente lo que somos... y porque creemos que lo hacemos bien, deberíamos ganar algo de beneficio para mantener esta misión funcionando y mejorando cada vez más. Si mejoramos continuamente, nos convertiremos en un socio fuerte para todos nuestros clientes. Y ese es el objetivo – que el stock obsoleto termine con nosotros. Con nosotros, el concepto de 'obsoleto' llega a su fin."
   },
   "contact": {
-    "title": "Únete a la Lista de Espera",
+    "title": "Únete a la",
+    "waitlist": "Lista de Espera",
     "subtitle": "Sé el primero en saber cuándo lanzamos y obtén acceso anticipado al marketplace",
     "description": "Ponte en contacto con nosotros para saber más sobre cómo ReStocked puede ayudar a tu negocio.",
     "form": {
       "name": "Tu Nombre *",
-      "email": "Dirección de Email *",
+      "email": "Correo electrónico *",
       "emailPlaceholder": "tu@email.com",
-      "company": "Empresa (Opcional)",
+      "company": "El nombre de su empresa (Opcional)",
+      "companyPlaceholder": "El nombre de su empresa",
       "phone": "Teléfono",
       "message": "Mensaje *",
       "submit": "Unirse a la Lista de Espera"
@@ -112,7 +114,7 @@
   },
   "validation": {
     "nameRequired": "El nombre es obligatorio",
-    "emailRequired": "El email es obligatorio",
+    "emailRequired": "Se requiere correo electrónico",
     "emailInvalid": "Por favor, introduce una dirección de email válida"
   }
 }
