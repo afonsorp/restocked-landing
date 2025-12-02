@@ -83,7 +83,8 @@
       "company": "Company (Optional)",
       "companyPlaceholder": "Your company name",
       "phone": "Phone",
-      "message": "Message *",
+      "message": "Message (Optional)",
+      "messagePlaceholder": "Tell us more about your needs...",
       "submit": "Join Waitlist"
     },
     "email": "Email",

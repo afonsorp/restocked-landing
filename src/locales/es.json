@@ -83,7 +83,8 @@
       "company": "El nombre de su empresa (Opcional)",
       "companyPlaceholder": "El nombre de su empresa",
       "phone": "Teléfono",
-      "message": "Mensaje *",
+      "message": "Mensaje (Opcional)",
+      "messagePlaceholder": "Cuéntanos más sobre tus necesidades...",
       "submit": "Unirse a la Lista de Espera"
     },
     "email": "Email",

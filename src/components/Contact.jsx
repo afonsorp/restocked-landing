@@ -7,7 +7,8 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    company: ''
+    company: '',
+    message: ''
   });
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -56,6 +57,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
+      const userLanguage = localStorage.getItem('i18nextLng') || 'pt';
       const response = await fetch('https://formspree.io/f/meovkjla', {
         method: 'POST',
         headers: {
@@ -65,6 +67,8 @@ const Contact = () => {
           name: formData.name,
           email: formData.email,
           company: formData.company,
+          message: formData.message,
+          origin: userLanguage,
           _replyto: formData.email,
           _subject: 'Nova inscrição na Waitlist - ReStocked.pt',
         }),
@@ -72,7 +76,7 @@ const Contact = () => {
 
       if (response.ok) {
         setSubmitStatus('success');
-        setFormData({ name: '', email: '', company: '' });
+        setFormData({ name: '', email: '', company: '', message: '' });
       } else {
         setSubmitStatus('error');
       }
@@ -179,6 +183,26 @@ const Contact = () => {
                     onChange={handleChange}
                     className="form-control"
                     placeholder={t('contact.form.companyPlaceholder')}
+                  />
+                </div>
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="message" className="form-label">
+                  {t('contact.form.message')}
+                </label>
+                <div className="input-wrapper">
+                  <svg className="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                  </svg>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    className="form-control"
+                    placeholder={t('contact.form.messagePlaceholder')}
+                    rows="4"
                   />
                 </div>
               </div>

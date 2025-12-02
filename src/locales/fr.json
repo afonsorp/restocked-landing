@@ -83,7 +83,8 @@
       "company": "Nom de votre entreprise (Optionnel)",
       "companyPlaceholder": "Nom de votre entreprise",
       "phone": "Téléphone",
-      "message": "Message *",
+      "message": "Message (Optionnel)",
+      "messagePlaceholder": "Parlez-nous de vos besoins...",
       "submit": "Rejoindre la Liste d'Attente"
     },
     "email": "Email",

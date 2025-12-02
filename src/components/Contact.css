@@ -115,6 +115,22 @@
   margin-top: 0.25rem;
 }
 
+textarea.form-control {
+  min-height: 120px;
+  resize: vertical;
+  padding-top: 0.875rem;
+  line-height: 1.5;
+  font-family: inherit;
+}
+
+.input-wrapper:has(textarea) {
+  align-items: flex-start;
+}
+
+.input-wrapper:has(textarea) .input-icon {
+  top: 1rem;
+}
+
 .btn--full-width {
   width: 100%;
   margin-top: 0.5rem;
